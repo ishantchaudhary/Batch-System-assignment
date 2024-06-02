@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 20px;
+    background-color: #fff;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); */
+    position: relative;
+    width :1090px;
+    height:60px;
+    margin-top: 40px;
+    margin-left: 175px;
+    margin-right: 175px;
+    
+}
+
+.navbar-brand   {
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.uifry{
+    font-size: 37px;
+    font-weight: bolder;
+}
+.navbar-menu{
+    list-style: none;
+    font-size: larger;
+    display: flex;
+    align-items: start;
+    margin-right: 240px;
+}
+
+.navbar-menu li{
+    margin: 0 15px;
+}
+.navbar-menu {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.download .download-btn{
+    padding: 20px 30px;
+    width: max-content;
+    background-color: black;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download .download-btn:hover {
+    background-color: #e600b3;
+}
+.download{
+    margin: 0px;
+}
+ .star1 {
+    position: relative;
+    top:70px;
+    right: 110px;
+}
+.star2{
+    position: relative;
+    top:30px;
+    left: 100px;
+}
+.cont1{
+    position: relative;
+    left: 190px;
+    bottom: 100px;
+}
+.cont2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    position: relative;
+    bottom: 410px;
+    left: 240px;
+}
+.cont3{
+   position: relative;
+   bottom: 380px;
+    left: 240px;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+}
+.hero1 .stack1 .instack2{
+    position: relative;
+    bottom: 520px;
+    left:550px;
+}
+.instack2 .frame{
+    position: relative;
+    bottom: 800px;
+    left: 80px;
+}
+.instack2 .phone2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    right: -100px;
+    bottom: 1620px;
+}
+.instack2 .phone3{
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    position: relative;
+    right:10px;
+    left: -25px;
+    bottom: 2450px;
+}
+.btncls {
+    display: flex;
+    flex-direction: row;
+}
+.btncls .download2 .download-btn{
+    padding: 20px 30px;
+    width: max-content;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btncls .watch-video .download-btn{
+    padding: 20px 30px;
+    width: max-content;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.cont3 .rectangle{
+    display: flex;
+    position: relative;
+    right:40px;
+    top:40px;
+}
+.star3{
+    position: relative;
+    bottom: 360px;
+    left:120px;
+}
+.second-pg .block1 .first{
+    position: relative;
+    left:90px;
+    bottom: 3600px;
+}
+.second{
+    position: relative;
+    right:500px;
+    bottom: 3380px;
+}
+.p4{
+    position: relative;
+    left:300px;
+    bottom: 4050px;
+}
+.str{
+    position: relative;
+    right:1200px;
+    bottom: 3900px;
+}
+.block2{
+    position: relative;
+    left:900px;
+    bottom: 4660px;
+
+}
+.block2 .b2h1{
+    font-size: 48px;
+}
+.b2h5 {
+    font-size: 20px;
+}
+.b2h6{
+    font-size: 15px;
+    letter-spacing: 7px;
+    color: red;
+}
+.b2p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
+.gp3{
+    position: relative;
+    left:1200px;
+    bottom: 5100px;   
+}
+.block3-1{
+    position: relative;
+    left:200px;
+    bottom: 4800px;  
+}
+.block3-1 .b3h6{
+    font-size: 15px;
+    letter-spacing: 7px;
+    color: red;
+}
+.block3-1 .b3h1 {
+    font-size: 48px;
+}
+
+.b3h2 {
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.b3p1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    line-height: 25px;
+}
+.rl{
+    position: relative;
+    left:700px;
+    bottom: 5300px;  
+}
+.el{
+    position: relative;
+    left:200px;
+    bottom: 5200px; 
+}
+.phn21{
+    position: relative;
+    left:930px;
+    bottom: 5870px; 
+}
+.str5{
+    position: relative;
+    left:960px;
+    bottom: 6470px; 
+}
+.rl1 {
+    position: relative;
+    right:500px;
+    bottom: 6070px;
+}
+.el1{
+    position: relative;
+    left: 90px;
+    bottom: 6070px;
+}
+.ph3{
+    position: relative;
+    left: 290px;
+    bottom: 6730px;
+}
+.g1{
+    position: relative;
+    right: 90px;
+    bottom: 7100px;
+}
+.b4h1 {
+    font-size: 38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.b4p1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    line-height: 25px;   
+}
+.b4-2 {
+    position: relative;
+    left: 890px;
+    bottom: 7200px;
+}
+.cmpimg{
+    position: relative;
+    left: 90px;
+    bottom: 6900px;
+}
+.testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 6900px;
+}
+.b5h1{
+    font-size: 38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 40px;
+}
+.b5h5{
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+.b52h1{
+    font-size: 38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 40px;
+}
+.b52p1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    line-height: 25px; 
+}
+.b5-2{
+    position: relative;
+    left: 800px;
+    bottom: 7400px;
+}
+
+
+
+
+
+.faq-section {
+    max-width: 800px;
+    margin: 0 ;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.faq-section h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+ .faq-item {
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.faq-item h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+}
+.faq-item p {
+    font-size: 1em;
+    margin: 0;
+} */
+
+
+
+
+.sec1{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    position: relative;
+    bottom: 000px;
+    left: 200px;
+}
+.sec2{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    position: relative;
+    bottom: 7517px;
+    left: 740px;
+}
+.faq {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
